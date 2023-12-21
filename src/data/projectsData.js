@@ -11,14 +11,17 @@ import downtown from "../assets/images/nearby/downtown.webp";
 import marina from "../assets/images/nearby/marina.webp";
 import moe from "../assets/images/nearby/moe.webp";
 import dwc from "../assets/images/nearby/dwc.webp";
+import global from "../assets/images/nearby/global.webp";
 import jumeirah from "../assets/images/nearby/jumeirah.webp";
+import img from "../assets/images/nearby/img.webp";
+import dunecrest from "../assets/images/nearby/dunecrest.webp";
 export const projectsData = [
 	{
 		id: 1,
 		ProjectName: { en: "Barari Views", ar: "جاكوب" },
 		HeaderTitle: {
-			en: "Enjoy Endless Greenary Views at Al Barari",
-			ar: "فلل فاخرة جدا من تلال الغاف",
+			en: "Enjoy Endless Greenery Views at Al Barari",
+			ar: "إستمتع بالخضار المحيط بك بمنظر خلاب ",
 		},
 		HeaderTitleTow: {
 			en: "Greenary",
@@ -27,11 +30,11 @@ export const projectsData = [
 		HeaderImage: projectOneHeader,
 		InfoTitle: {
 			en: "Distiguished Design With Private pool at your Balcony",
-			ar: "فلل فاخرة جدا من تلال الغاف",
+			ar: "تصمم فريد مع مسبحك الخاص على البلكون",
 		},
 		InfoSubTitle: {
 			en: "Barari Views is a high-end residential units from studios, 1, 2 & 3 bedroom apartments with private pool.There are smart home systems installed in all the properties, allowing you to easily adjust the lighting, temperature, security features and more. ",
-			ar: "استمتع بإطلالات بانورامية على بحيرة الغاف البكر بينما تنغمس في أسلوب حياة فاخر حقًا",
+			ar: "براري فيوز تمثل وحدات سكنية فاخرة تتضمن استوديوهات وشقق بغرفة نوم واحدة أو غرفتين أو ثلاث غرف نوم، مع مسبح خاص. يتوفر نظام منزل ذكي مثبت في جميع الوحدات، مما يسمح لك بضبط الإضاءة ودرجة الحرارة وميزات الأمان والمزيد بسهولة.",
 		},
 		InfoData: [
 			{
@@ -52,33 +55,39 @@ export const projectsData = [
 		],
 		Nearby: [
 			{
-				Duration: "24",
-				Place: { en: "Palm Jumeirah ", ar: "" },
-				Image: jumeirah,
+				Duration: "5",
+				Place: {
+					en: "IMG Worlds of Adventure",
+					ar: "آي إم جي عالم من المغامرات",
+				},
+				Image: img,
 			},
 			{
-				Duration: "24",
-				Place: { en: "Dubai Marina", ar: "" },
-				Image: marina,
+				Duration: "5",
+				Place: {
+					en: "Dunecrest American School",
+					ar: "مدرسة ديونكريست الامريكية",
+				},
+				Image: dunecrest,
 			},
 			{
-				Duration: "20",
-				Place: { en: "DWC Airport", ar: "" },
-				Image: dwc,
+				Duration: "8",
+				Place: { en: "Global Village", ar: "القرية العالمية" },
+				Image: global,
 			},
 			{
 				Duration: "30",
-				Place: { en: "DXB Airport", ar: "" },
+				Place: { en: "DXB Airport", ar: "مطار دبي الدولي" },
 				Image: dxb,
 			},
 			{
-				Duration: "21",
-				Place: { en: "Dubai Downtown", ar: "" },
+				Duration: "20",
+				Place: { en: "Dubai Downtown", ar: "وسط دبي" },
 				Image: downtown,
 			},
 			{
 				Duration: "20",
-				Place: { en: "Mall of Emirates", ar: "" },
+				Place: { en: "Mall of Emirates", ar: "مول الإمارات" },
 				Image: moe,
 			},
 		],
@@ -89,16 +98,16 @@ export const projectsData = [
 		ProjectName: { en: "10 Oxford", ar: "10 Oxford" },
 		HeaderTitle: {
 			en: "Oxford Where Quality & High Design Meet",
-			ar: "نص عربي للمشروع الثاني أي شي",
+			ar: "مشروع أوكسفورد حيث تلتقي الجودة و التصاميم الفريد",
 		},
 		HeaderImage: projectTwoHeader,
 		InfoTitle: {
 			en: "Earth's natural elements come to life within its architecture",
-			ar: "عنوان المشروع الثاني",
+			ar: "العناصر الطبيعية للأرض تتجسد في هندستها.",
 		},
 		InfoSubTitle: {
 			en: "This remarkable residential project offers an exquisite blend of nature-inspired design, with a total of 434 units spread across basement, ground, and 5 floors, luxurious living, and an array of amenities to ensure a comfortable lifestyle.",
-			ar: "شرح مبسط عن المشروع الثاني ",
+			ar: "يقدم هذا المشروع السكني الرائع مزيجًا فريدًا من التصميم المستوحات من الطبيعة، حيث يتكون من مجموع 434 وحدة موزعة على الطابق السفلي والأرضي و5 طوابق أخرى. إنه عرض فاخر للعيش ومجموعة من وسائل الراحة لضمان نمط حياة مريح. ",
 		},
 		InfoData: [
 			{
@@ -119,33 +128,33 @@ export const projectsData = [
 		],
 		Nearby: [
 			{
-				Duration: "24",
-				Place: { en: "Palm Jumeirah ", ar: "" },
-				Image: jumeirah,
+				Duration: "20",
+				Place: { en: "Global Village", ar: "القرية العالمية" },
+				Image: global,
 			},
 			{
-				Duration: "24",
-				Place: { en: "Dubai Marina", ar: "" },
+				Duration: "18",
+				Place: { en: "Dubai Marina", ar: "دبي مارينا" },
 				Image: marina,
 			},
 			{
-				Duration: "20",
-				Place: { en: "DWC Airport", ar: "" },
+				Duration: "25",
+				Place: { en: "DWC Airport", ar: "مطار آل مكتوم الدولي" },
 				Image: dwc,
 			},
 			{
-				Duration: "30",
-				Place: { en: "DXB Airport", ar: "" },
+				Duration: "25",
+				Place: { en: "DXB Airport", ar: "مطار دبي الدولي" },
 				Image: dxb,
 			},
 			{
-				Duration: "21",
-				Place: { en: "Dubai Downtown", ar: "" },
+				Duration: "30",
+				Place: { en: "Dubai Downtown", ar: "وسط دبي" },
 				Image: downtown,
 			},
 			{
 				Duration: "20",
-				Place: { en: "Mall of Emirates", ar: "" },
+				Place: { en: "Mall of Emirates", ar: "مول الإمارات" },
 				Image: moe,
 			},
 		],
